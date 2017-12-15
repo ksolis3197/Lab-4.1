@@ -21,4 +21,15 @@ public class constructor {
 		obj1.info();  
 		obj2.info();  
 	   }  
+	   
+	   public boolean equals (String toString)
+	   {
+		   String object = "Ace";
+		   if ( object == toString)
+		   {
+			   return true;
+		   }
+		return false;
+		   
+	   }
 	}
